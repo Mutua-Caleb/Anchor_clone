@@ -1,0 +1,85 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$yellow: #e8f524;
+$dark_purple: #24203f;
+$dark: #181903;
+$white: #FFFFFF;
+$highlight: #d2674e;
+$light: #EDEFF5;
+$indigo: #6610f2;
+
+.bg-dark {
+  background: $dark_purple;
+}
+.navbar-dark {
+  background: $dark_purple;
+}
+.btn-success {
+ background-color: $yellow;
+ color: $dark;
+ border-color: $yellow;
+ border-radius: 1rem;
+ margin-left: 2rem;
+
+}
+
+
+.navbar, .navbar-expand-md, .navbar-dark, .fixed-top, .bg-primary {
+    background: $dark_purple;
+
+} 
+.color {
+  color: #c9c8d0;
+
+}
+
+  #form {
+  padding: 0 0 5rem 0;
+
+}
+
+.wrapper_skinny {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.button {
+  color: $white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  display: inline-block;
+  min-width: 8.5rem;
+}
+.button_highlight {
+  background: $dark_purple;
+  transition: background .4s ease-in-out;
+  &:hover {
+    background: darken($indigo, 7.5%);
+
+  }
+}
+.button_white {
+  background: $white;
+  color: $dark;
+  transition: background .4s ease-in-out;
+  &:hover {
+    background: darken($white, 7.5%);
+
+  }
+}
+
+.button_block{
+ display: block;
+ margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+h2 {
+  color: $indigo;
+}
